@@ -6,7 +6,7 @@ class Card extends React.Component {
   }
 
   render() {
-    const { image, title } = this.props.data;
+    const { image, title, } = this.props.data;
     return (
       <div style={{ margin: "14px", background: "white", borderRadius:  "15px", padding: "20px", textAlign: "center", marginTop: "40px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <img style={{ width: "200px", height: "160px" }} src={image} alt="" />
